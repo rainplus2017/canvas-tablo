@@ -5,10 +5,12 @@ const morgan = require('morgan');
 
 const path = require('path');
 
+const normalizePort = (port) => parseInt(port, 10);
 const PORT = normalizePort(process.env.PORT || 5000);
 
 // здесь у нас происходит импорт пакетов и определяется порт нашего сервера
 const app = express();
+const dev = app.get('env') !== 'production';
 
 app.disable('x-powered-by');
 app.use(compression());
