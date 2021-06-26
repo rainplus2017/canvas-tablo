@@ -1,0 +1,29 @@
+//Colors
+$back: #e5e5e5;
+$blue: #0a6cff;
+$white: #ffffff;
+$black: #050505;
+$grey: #f6f6f6;
+
+//Fots-Montserrat
+@font-face {
+  font-family: mBold;
+  src: url("../Fonts/Montserrat/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: mRegular;
+  src: url("../Fonts/Montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: mSemibold;
+  src: url("../Fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: mMedium;
+  src: url("../Fonts/Montserrat/Montserrat-Medium.ttf");
+}
+//Font-Opensans
+@font-face {
+  font-family: oRegular;
+  src: url("../Fonts/openS/OpenSans-Regular.ttf");
+}
